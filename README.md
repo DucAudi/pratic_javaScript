@@ -23,8 +23,7 @@
 - Common styles button,etc.
 
 **Day 2:**
-- Create a Header
-- Create an Interface App
+- Create an Interface App : including header, search, light/dark mode, select..
 
 **Day 3:**:
 - Create a note adding function, allowing users to add notes by clicking the button
