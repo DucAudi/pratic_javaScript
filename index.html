@@ -3,9 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/style.css">
     <title>Document</title>
 </head>
 <body>
     
+    <header class="heading layout">
+        <div class="heading-title title flex-row">
+            <h1>todo list</h1>
+        </div>
+        <nav class="nav-bar flex-row">
+            <search class="search ">
+                <form class="form-search full-size">
+                  <input class="input-search full-size border-radius border-click:focus" id="id-search" placeholder="Search note..." >
+                  <label class="label-search" for="id-search"></label>
+                </form>
+            </search>
+            <section class="nav-icon-search"><a class="icon-search" href="#"><i class="fa-solid fa-magnifying-glass"></i></a></section>
+            <select class="select border-radius set-color">
+                    <option class="select__items border-radius">ALL</option>
+                    <option class="select__items border-radius">Complete</option>
+                    <option class="select__items border-radius">Incomplete</option>
+            </select>
+            <button class="dark-light-mode border-radius set-color"><i class="fa-regular fa-moon"></i></button>
+        </nav>
+
+
+    </header>
+    <main class="main layout"></main>
+
+    <script src="index.js"></script>
 </body>
 </html>
